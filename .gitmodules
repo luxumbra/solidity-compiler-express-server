@@ -1,0 +1,3 @@
+[submodule "custom-supertokens"]
+	path = custom-supertokens
+	url = https://github.com/superfluid-finance/custom-supertokens
