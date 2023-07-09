@@ -1,0 +1,1 @@
+/* SPDX-License-Identifier: MIT */ pragma solidity ^0.8.0; import {PureSuperToken} from '../custom-supertokens/contracts/PureSuperToken.sol'; contract MyToken is PureSuperToken { function initialize(address factory, string memory name, string memory symbol)    external{_initialize(factory, name, symbol);_mint(msg.sender, 0, 'userData');}}
