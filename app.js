@@ -97,4 +97,4 @@ app.post('/delete', async (req, res) => {
 
 
 // Start server
-app.listen(process.env.PORT || 80)
+app.listen(3000, () => console.log('Server running on port 3000'));
