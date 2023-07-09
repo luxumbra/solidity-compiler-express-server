@@ -22,11 +22,15 @@
   "homepage": "https://github.com/hunters-workshop/solidity-compiler-express-server#readme",
   "dependencies": {
     "axios": "^1.4.0",
+    "cors": "^2.8.5",
     "express": "^4.18.2",
     "hardhat": "^2.16.1"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@openzeppelin/contracts": "4.9.2",
+    "@openzeppelin/contracts-upgradeable": "4.9.2",
+    "@superfluid-finance/custom-supertokens": "superfluid-finance/custom-supertokens",
     "ethers": "^5.7.2"
   }
 }
