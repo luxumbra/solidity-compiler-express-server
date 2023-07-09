@@ -5,8 +5,12 @@ const ethers = require('ethers');
 const fs = require('fs');
 const { exec } = require('child_process');
 const path = require('path');
+const cors = require('cors');
 
 const app = express();
+app.use(cors({
+  origin: '*',
+}));
 app.use(express.json());
 
 const contractPath = path.join(__dirname, '/contracts/Contract.sol');
@@ -41,10 +45,10 @@ module.exports = {
 app.post('/compile', async (req, res) => {
     const input = req.body.code;
     const name = req.body.name;
-    
+    console.log(`Compiling ${name}... `, { input });
     // Write the Solidity code to a .sol file
     fs.writeFileSync(path.join(contractDir, `${name}.sol`), input);
-  
+
     exec('npx hardhat compile', (error, stdout, stderr) => {
       if (error) {
         console.log(`error: ${error.message}`);
@@ -69,13 +73,28 @@ app.post('/compile', async (req, res) => {
 // Endpoint to deploy compiled code
 app.post('/deploy', async (req, res) => {
     const { abi, bytecode } = req.body;
-    
+    console.log(`Deploying... `, { abi, bytecode });
     // Hardhat's ContractFactory can calculate the transaction data
     let factory = new ethers.ContractFactory(abi, bytecode);
     const transactionData = factory.getDeployTransaction().data;
-    
+
     res.send({ transactionData });
 });
+
+app.post('/delete', async (req, res) => {
+  const name = req.body.name;
+  console.log(`Deleting ${name}... `);
+  const artifactPath = path.join(artifactsDir, `contracts/${name}.sol/${name}.json`);
+  if (fs.existsSync(artifactPath)) {
+    fs.unlinkSync(artifactPath);
+  }
+  const contractPath = path.join(contractDir, `${name}.sol`);
+  if (fs.existsSync(contractPath)) {
+    fs.unlinkSync(contractPath);
+  }
+  res.send({ success: true });
+});
+
 
 // Start server
 app.listen(3000, () => console.log('Server running on port 3000'));
