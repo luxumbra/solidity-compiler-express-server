@@ -78,7 +78,7 @@ app.post('/deploy', async (req, res) => {
     let factory = new ethers.ContractFactory(abi, bytecode);
     const transactionData = factory.getDeployTransaction().data;
 
-    res.send({ transactionData });
+    res.send(transactionData);
 });
 
 app.post('/delete', async (req, res) => {
