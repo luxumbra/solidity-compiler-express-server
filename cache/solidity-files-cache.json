@@ -1,17 +1,10 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-<<<<<<< HEAD
-    "C:\\Users\\cherf\\projects\\hunters-workshop\\solidity-compiler-express-server\\contracts\\MyToken.sol": {
-      "lastModificationDate": 1688741343520,
-      "contentHash": "4ceb2eaa16c6d9679677e0e4c49d8a8d",
-      "sourceName": "contracts/MyToken.sol",
-=======
-    "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/contracts/HelloToken.sol": {
-      "lastModificationDate": 1688849807568,
-      "contentHash": "f644d19b42b684aae8d17edc0ddb59a4",
-      "sourceName": "contracts/HelloToken.sol",
->>>>>>> b9638661ebd231acc8bbc01951566e63989c7724
+    "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/contracts/Cheese.sol": {
+      "lastModificationDate": 1688985867963,
+      "contentHash": "01419cbe59009f31841d55be548ffa88",
+      "sourceName": "contracts/Cheese.sol",
       "solcConfig": {
         "version": "0.8.4",
         "settings": {
@@ -36,115 +29,19 @@
         }
       },
       "imports": [
-<<<<<<< HEAD
-        "../custom-supertokens/contracts/PureSuperToken.sol"
-=======
-        "@superfluid-finance/custom-supertokens/contracts/PureSuperToken.sol",
-        "@openzeppelin/contracts/access/Ownable.sol"
->>>>>>> b9638661ebd231acc8bbc01951566e63989c7724
+        "@superfluid-finance/custom-supertokens/contracts/base/SuperTokenBase.sol"
       ],
       "versionPragmas": [
         "^0.8.0"
       ],
       "artifacts": [
-<<<<<<< HEAD
-        "MyToken"
-      ]
-    },
-    "C:\\Users\\cherf\\projects\\hunters-workshop\\solidity-compiler-express-server\\custom-supertokens\\contracts\\PureSuperToken.sol": {
-      "lastModificationDate": 1688738067380,
-      "contentHash": "e95b6d18075920b608902d6fa6cead44",
-      "sourceName": "custom-supertokens/contracts/PureSuperToken.sol",
-=======
-        "HelloToken"
-      ]
-    },
-    "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/node_modules/@superfluid-finance/custom-supertokens/contracts/PureSuperToken.sol": {
-      "lastModificationDate": 1688824053926,
-      "contentHash": "9446d5950dfe558b2db8f190e4e31c62",
-      "sourceName": "@superfluid-finance/custom-supertokens/contracts/PureSuperToken.sol",
->>>>>>> b9638661ebd231acc8bbc01951566e63989c7724
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./base/SuperTokenBase.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "PureSuperToken"
-      ]
-    },
-<<<<<<< HEAD
-    "C:\\Users\\cherf\\projects\\hunters-workshop\\solidity-compiler-express-server\\custom-supertokens\\contracts\\base\\SuperTokenBase.sol": {
-      "lastModificationDate": 1688738067380,
-      "contentHash": "6d62ee783ef715f83a8a034db1277615",
-      "sourceName": "custom-supertokens/contracts/base/SuperTokenBase.sol",
-=======
-    "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
-      "lastModificationDate": 1688823551228,
-      "contentHash": "5a20b2cad87ddb61c7a3a6af21289e28",
-      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../utils/Context.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "Ownable"
+        "Cheese"
       ]
     },
     "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/node_modules/@superfluid-finance/custom-supertokens/contracts/base/SuperTokenBase.sol": {
-      "lastModificationDate": 1688824055118,
+      "lastModificationDate": 1688985600047,
       "contentHash": "ca7475cc90ee18cd46c8bf67fb80ae96",
       "sourceName": "@superfluid-finance/custom-supertokens/contracts/base/SuperTokenBase.sol",
->>>>>>> b9638661ebd231acc8bbc01951566e63989c7724
       "solcConfig": {
         "version": "0.8.4",
         "settings": {
@@ -182,17 +79,10 @@
         "SuperTokenBase"
       ]
     },
-<<<<<<< HEAD
-    "C:\\Users\\cherf\\projects\\hunters-workshop\\solidity-compiler-express-server\\custom-supertokens\\contracts\\base\\SuperTokenStorage.sol": {
-      "lastModificationDate": 1688738067381,
-      "contentHash": "6a1c0361586107f9b73bd1918b421b24",
-      "sourceName": "custom-supertokens/contracts/base/SuperTokenStorage.sol",
-=======
     "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/node_modules/@superfluid-finance/custom-supertokens/contracts/base/SuperTokenStorage.sol": {
-      "lastModificationDate": 1688824055118,
+      "lastModificationDate": 1688985600047,
       "contentHash": "abfed089ed4b93e6e96dfcf5c15f63f5",
       "sourceName": "@superfluid-finance/custom-supertokens/contracts/base/SuperTokenStorage.sol",
->>>>>>> b9638661ebd231acc8bbc01951566e63989c7724
       "solcConfig": {
         "version": "0.8.4",
         "settings": {
@@ -224,17 +114,10 @@
         "SuperTokenStorage"
       ]
     },
-<<<<<<< HEAD
-    "C:\\Users\\cherf\\projects\\hunters-workshop\\solidity-compiler-express-server\\custom-supertokens\\contracts\\base\\UUPSProxy.sol": {
-      "lastModificationDate": 1688738067381,
-      "contentHash": "b47e664cb92f65c83e231ea8964b646e",
-      "sourceName": "custom-supertokens/contracts/base/UUPSProxy.sol",
-=======
     "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/node_modules/@superfluid-finance/custom-supertokens/contracts/base/UUPSProxy.sol": {
-      "lastModificationDate": 1688824055118,
+      "lastModificationDate": 1688985600047,
       "contentHash": "47e9093e788202c04d6478e568577100",
       "sourceName": "@superfluid-finance/custom-supertokens/contracts/base/UUPSProxy.sol",
->>>>>>> b9638661ebd231acc8bbc01951566e63989c7724
       "solcConfig": {
         "version": "0.8.4",
         "settings": {
@@ -268,15 +151,9 @@
         "UUPSProxy"
       ]
     },
-<<<<<<< HEAD
-    "C:\\Users\\cherf\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\IERC20.sol": {
-      "lastModificationDate": 1687173973445,
-      "contentHash": "ad7c2d0af148c8f9f097d65deeb4da6b",
-=======
     "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
-      "lastModificationDate": 1688823551392,
+      "lastModificationDate": 1688985517453,
       "contentHash": "df36f7051335cd1e748b1b6463b7fdd3",
->>>>>>> b9638661ebd231acc8bbc01951566e63989c7724
       "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
       "solcConfig": {
         "version": "0.8.4",
@@ -309,15 +186,9 @@
         "IERC20"
       ]
     },
-<<<<<<< HEAD
-    "C:\\Users\\cherf\\node_modules\\@superfluid-finance\\ethereum-contracts\\contracts\\interfaces\\superfluid\\ISuperToken.sol": {
-      "lastModificationDate": 1687174105981,
-      "contentHash": "61469de32bea27827319123c4a735dab",
-=======
     "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/node_modules/@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/ISuperToken.sol": {
-      "lastModificationDate": 1688824056106,
+      "lastModificationDate": 1688985601043,
       "contentHash": "b012cc056162b7f32926ef77802136bd",
->>>>>>> b9638661ebd231acc8bbc01951566e63989c7724
       "sourceName": "@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/ISuperToken.sol",
       "solcConfig": {
         "version": "0.8.4",
@@ -360,15 +231,9 @@
         "ISuperToken"
       ]
     },
-<<<<<<< HEAD
-    "C:\\Users\\cherf\\node_modules\\@superfluid-finance\\ethereum-contracts\\contracts\\interfaces\\superfluid\\ISuperTokenFactory.sol": {
-      "lastModificationDate": 1687174106024,
-      "contentHash": "e49894d55d38f583c443600c4c99f8c6",
-=======
     "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/node_modules/@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/ISuperTokenFactory.sol": {
-      "lastModificationDate": 1688824056106,
+      "lastModificationDate": 1688985601043,
       "contentHash": "0169a695ea974a2ccafad50972e43db1",
->>>>>>> b9638661ebd231acc8bbc01951566e63989c7724
       "sourceName": "@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/ISuperTokenFactory.sol",
       "solcConfig": {
         "version": "0.8.4",
@@ -404,13 +269,8 @@
         "ISuperTokenFactory"
       ]
     },
-<<<<<<< HEAD
-    "C:\\Users\\cherf\\node_modules\\@openzeppelin\\contracts\\proxy\\Proxy.sol": {
-      "lastModificationDate": 1687173974655,
-=======
     "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/node_modules/@openzeppelin/contracts/proxy/Proxy.sol": {
-      "lastModificationDate": 1688823551232,
->>>>>>> b9638661ebd231acc8bbc01951566e63989c7724
+      "lastModificationDate": 1688985516821,
       "contentHash": "40b3d81a836d50ff47e03893dcaaf204",
       "sourceName": "@openzeppelin/contracts/proxy/Proxy.sol",
       "solcConfig": {
@@ -444,50 +304,9 @@
         "Proxy"
       ]
     },
-<<<<<<< HEAD
-    "C:\\Users\\cherf\\node_modules\\@openzeppelin\\contracts\\token\\ERC777\\IERC777.sol": {
-      "lastModificationDate": 1687173973966,
-      "contentHash": "35b56a00de0fb16f9e6a8d7464d31b0b",
-      "sourceName": "@openzeppelin/contracts/token/ERC777/IERC777.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IERC777"
-      ]
-    },
-    "C:\\Users\\cherf\\node_modules\\@superfluid-finance\\ethereum-contracts\\contracts\\interfaces\\tokens\\TokenInfo.sol": {
-      "lastModificationDate": 1687174107059,
-      "contentHash": "6326411b7eb3d451fdffd149d821a7cb",
-=======
     "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/node_modules/@superfluid-finance/ethereum-contracts/contracts/interfaces/tokens/TokenInfo.sol": {
-      "lastModificationDate": 1688824056102,
+      "lastModificationDate": 1688985601043,
       "contentHash": "da20f4255b68517dfa9f252b8df5cd7a",
->>>>>>> b9638661ebd231acc8bbc01951566e63989c7724
       "sourceName": "@superfluid-finance/ethereum-contracts/contracts/interfaces/tokens/TokenInfo.sol",
       "solcConfig": {
         "version": "0.8.4",
@@ -520,11 +339,10 @@
         "TokenInfo"
       ]
     },
-<<<<<<< HEAD
-    "C:\\Users\\cherf\\node_modules\\@superfluid-finance\\ethereum-contracts\\contracts\\interfaces\\superfluid\\IConstantInflowNFT.sol": {
-      "lastModificationDate": 1687174105157,
-      "contentHash": "50e7ff0bc0e1235a45c52de2eae4df43",
-      "sourceName": "@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/IConstantInflowNFT.sol",
+    "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/node_modules/@openzeppelin/contracts/token/ERC777/IERC777.sol": {
+      "lastModificationDate": 1688985517453,
+      "contentHash": "ac43d0ff9ace16c82712150d22c71207",
+      "sourceName": "@openzeppelin/contracts/token/ERC777/IERC777.sol",
       "solcConfig": {
         "version": "0.8.4",
         "settings": {
@@ -548,20 +366,17 @@
           }
         }
       },
-      "imports": [
-        "./ISuperToken.sol",
-        "./IFlowNFTBase.sol"
-      ],
+      "imports": [],
       "versionPragmas": [
-        ">=0.8.4"
+        "^0.8.0"
       ],
       "artifacts": [
-        "IConstantInflowNFT"
+        "IERC777"
       ]
     },
-    "C:\\Users\\cherf\\node_modules\\@superfluid-finance\\ethereum-contracts\\contracts\\interfaces\\superfluid\\ISuperfluidToken.sol": {
-      "lastModificationDate": 1687174105910,
-      "contentHash": "095cd6cdf7df13a739649f8917862cb0",
+    "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/node_modules/@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/ISuperfluidToken.sol": {
+      "lastModificationDate": 1688985601043,
+      "contentHash": "a70744cb4653c252781ca92be0a7034b",
       "sourceName": "@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/ISuperfluidToken.sol",
       "solcConfig": {
         "version": "0.8.4",
@@ -596,135 +411,9 @@
         "ISuperfluidToken"
       ]
     },
-    "C:\\Users\\cherf\\node_modules\\@superfluid-finance\\ethereum-contracts\\contracts\\interfaces\\superfluid\\IPoolAdminNFT.sol": {
-      "lastModificationDate": 1687174105485,
-      "contentHash": "6a5ee5e8ea02a99a32948c3ba8f750a8",
-      "sourceName": "@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/IPoolAdminNFT.sol",
-=======
-    "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/node_modules/@openzeppelin/contracts/token/ERC777/IERC777.sol": {
-      "lastModificationDate": 1688823551392,
-      "contentHash": "ac43d0ff9ace16c82712150d22c71207",
-      "sourceName": "@openzeppelin/contracts/token/ERC777/IERC777.sol",
->>>>>>> b9638661ebd231acc8bbc01951566e63989c7724
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-<<<<<<< HEAD
-        ">=0.8.4"
-      ],
-      "artifacts": [
-        "IPoolAdminNFT"
-      ]
-    },
-    "C:\\Users\\cherf\\node_modules\\@superfluid-finance\\ethereum-contracts\\contracts\\interfaces\\superfluid\\IConstantOutflowNFT.sol": {
-      "lastModificationDate": 1687174105201,
-      "contentHash": "d68a7fe94e12d2277eedd4054fc59a6b",
-      "sourceName": "@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/IConstantOutflowNFT.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./ISuperfluidToken.sol",
-        "./IFlowNFTBase.sol"
-      ],
-      "versionPragmas": [
-        ">=0.8.4"
-      ],
-      "artifacts": [
-        "IConstantOutflowNFT"
-      ]
-    },
-    "C:\\Users\\cherf\\node_modules\\@superfluid-finance\\ethereum-contracts\\contracts\\interfaces\\superfluid\\IPoolMemberNFT.sol": {
-      "lastModificationDate": 1687174105515,
-      "contentHash": "71ace2838abebb46b969d54537e4458d",
-      "sourceName": "@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/IPoolMemberNFT.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.8.4"
-      ],
-      "artifacts": [
-        "IPoolMemberNFT"
-      ]
-    },
-    "C:\\Users\\cherf\\node_modules\\@superfluid-finance\\ethereum-contracts\\contracts\\interfaces\\superfluid\\ISuperfluid.sol": {
-      "lastModificationDate": 1687174105804,
-      "contentHash": "923d8bee2334395f7ad909b8e98e07e9",
-=======
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IERC777"
-      ]
-    },
     "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/node_modules/@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/ISuperfluid.sol": {
-      "lastModificationDate": 1688824056106,
+      "lastModificationDate": 1688985601043,
       "contentHash": "4252be16b415ef4c14e7a64a111e507d",
->>>>>>> b9638661ebd231acc8bbc01951566e63989c7724
       "sourceName": "@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/ISuperfluid.sol",
       "solcConfig": {
         "version": "0.8.4",
@@ -768,17 +457,45 @@
         "ISuperfluid"
       ]
     },
-<<<<<<< HEAD
-    "C:\\Users\\cherf\\node_modules\\@superfluid-finance\\ethereum-contracts\\contracts\\interfaces\\superfluid\\IFlowNFTBase.sol": {
-      "lastModificationDate": 1687174105270,
-      "contentHash": "10e54273c5b21ca0b88131952611bf26",
-      "sourceName": "@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/IFlowNFTBase.sol",
-=======
+    "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/node_modules/@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/IPoolMemberNFT.sol": {
+      "lastModificationDate": 1688985601043,
+      "contentHash": "dc79e32bc4ea3b7a798accb14aae0d0f",
+      "sourceName": "@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/IPoolMemberNFT.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "IPoolMemberNFT"
+      ]
+    },
     "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/node_modules/@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/IConstantInflowNFT.sol": {
-      "lastModificationDate": 1688824056106,
+      "lastModificationDate": 1688985601043,
       "contentHash": "adc1da30bc1648813199506550a50bfd",
       "sourceName": "@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/IConstantInflowNFT.sol",
->>>>>>> b9638661ebd231acc8bbc01951566e63989c7724
       "solcConfig": {
         "version": "0.8.4",
         "settings": {
@@ -803,88 +520,20 @@
         }
       },
       "imports": [
-<<<<<<< HEAD
-        "@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol",
-        "./ISuperToken.sol"
-=======
         "./ISuperToken.sol",
         "./IFlowNFTBase.sol"
->>>>>>> b9638661ebd231acc8bbc01951566e63989c7724
       ],
       "versionPragmas": [
         ">=0.8.4"
       ],
       "artifacts": [
-<<<<<<< HEAD
-        "IFlowNFTBase"
-      ]
-    },
-    "C:\\Users\\cherf\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\IERC721Metadata.sol": {
-      "lastModificationDate": 1687173973844,
-      "contentHash": "efbc0d15b80a74e34dbe8da0f3e879bb",
-      "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol",
-=======
         "IConstantInflowNFT"
       ]
     },
-    "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/node_modules/@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/ISuperfluidToken.sol": {
-      "lastModificationDate": 1688824056106,
-      "contentHash": "a70744cb4653c252781ca92be0a7034b",
-      "sourceName": "@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/ISuperfluidToken.sol",
->>>>>>> b9638661ebd231acc8bbc01951566e63989c7724
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-<<<<<<< HEAD
-        "../IERC721.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IERC721Metadata"
-      ]
-    },
-    "C:\\Users\\cherf\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\IERC721.sol": {
-      "lastModificationDate": 1687173973746,
-      "contentHash": "eb7e61db29f31d88b3c1cef1b063d338",
-      "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721.sol",
-=======
-        "./ISuperAgreement.sol"
-      ],
-      "versionPragmas": [
-        ">= 0.8.4"
-      ],
-      "artifacts": [
-        "ISuperfluidToken"
-      ]
-    },
     "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/node_modules/@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/IConstantOutflowNFT.sol": {
-      "lastModificationDate": 1688824056106,
+      "lastModificationDate": 1688985601043,
       "contentHash": "5b1ddc701755bb37cea0ea3394c567a6",
       "sourceName": "@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/IConstantOutflowNFT.sol",
->>>>>>> b9638661ebd231acc8bbc01951566e63989c7724
       "solcConfig": {
         "version": "0.8.4",
         "settings": {
@@ -909,21 +558,6 @@
         }
       },
       "imports": [
-<<<<<<< HEAD
-        "../../utils/introspection/IERC165.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IERC721"
-      ]
-    },
-    "C:\\Users\\cherf\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\IERC165.sol": {
-      "lastModificationDate": 1687173973232,
-      "contentHash": "03e6768535ac4da0e9756f1d8a4a018a",
-      "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
-=======
         "./ISuperfluidToken.sol",
         "./IFlowNFTBase.sol"
       ],
@@ -935,10 +569,9 @@
       ]
     },
     "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/node_modules/@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/IPoolAdminNFT.sol": {
-      "lastModificationDate": 1688824056106,
+      "lastModificationDate": 1688985601043,
       "contentHash": "176b289dabf373aa25266fde34df95d7",
       "sourceName": "@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/IPoolAdminNFT.sol",
->>>>>>> b9638661ebd231acc8bbc01951566e63989c7724
       "solcConfig": {
         "version": "0.8.4",
         "settings": {
@@ -964,29 +597,16 @@
       },
       "imports": [],
       "versionPragmas": [
-<<<<<<< HEAD
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IERC165"
-      ]
-    },
-    "C:\\Users\\cherf\\node_modules\\@superfluid-finance\\ethereum-contracts\\contracts\\interfaces\\superfluid\\ISuperAgreement.sol": {
-      "lastModificationDate": 1687174105739,
-      "contentHash": "49d978f06d4edeb5125a7152d6897e69",
-      "sourceName": "@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/ISuperAgreement.sol",
-=======
         ">=0.8.4"
       ],
       "artifacts": [
         "IPoolAdminNFT"
       ]
     },
-    "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/node_modules/@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/IPoolMemberNFT.sol": {
-      "lastModificationDate": 1688824056106,
-      "contentHash": "dc79e32bc4ea3b7a798accb14aae0d0f",
-      "sourceName": "@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/IPoolMemberNFT.sol",
->>>>>>> b9638661ebd231acc8bbc01951566e63989c7724
+    "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/node_modules/@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/ISuperAgreement.sol": {
+      "lastModificationDate": 1688985601043,
+      "contentHash": "25a7a16f7264364f214fea0aa8d00076",
+      "sourceName": "@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/ISuperAgreement.sol",
       "solcConfig": {
         "version": "0.8.4",
         "settings": {
@@ -1010,7 +630,6 @@
           }
         }
       },
-<<<<<<< HEAD
       "imports": [
         "./ISuperfluidToken.sol"
       ],
@@ -1021,59 +640,9 @@
         "ISuperAgreement"
       ]
     },
-    "C:\\Users\\cherf\\node_modules\\@superfluid-finance\\ethereum-contracts\\contracts\\interfaces\\superfluid\\ISuperApp.sol": {
-      "lastModificationDate": 1687174105769,
-      "contentHash": "5057526e30b17d708447527cb6485d6f",
-      "sourceName": "@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/ISuperApp.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./ISuperToken.sol"
-      ],
-      "versionPragmas": [
-        ">= 0.8.4"
-      ],
-      "artifacts": [
-        "ISuperApp"
-      ]
-    },
-    "C:\\Users\\cherf\\node_modules\\@superfluid-finance\\ethereum-contracts\\contracts\\interfaces\\superfluid\\ISuperfluidGovernance.sol": {
-      "lastModificationDate": 1687174105845,
-      "contentHash": "f39a1c0568c38958f3c5c80b6fb1603c",
-=======
-      "imports": [],
-      "versionPragmas": [
-        ">=0.8.4"
-      ],
-      "artifacts": [
-        "IPoolMemberNFT"
-      ]
-    },
     "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/node_modules/@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/ISuperfluidGovernance.sol": {
-      "lastModificationDate": 1688824056106,
+      "lastModificationDate": 1688985601043,
       "contentHash": "060a9c933105386d41614dfc1576f8f4",
->>>>>>> b9638661ebd231acc8bbc01951566e63989c7724
       "sourceName": "@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/ISuperfluidGovernance.sol",
       "solcConfig": {
         "version": "0.8.4",
@@ -1111,13 +680,8 @@
         "ISuperfluidGovernance"
       ]
     },
-<<<<<<< HEAD
-    "C:\\Users\\cherf\\node_modules\\@superfluid-finance\\ethereum-contracts\\contracts\\interfaces\\superfluid\\Definitions.sol": {
-      "lastModificationDate": 1687174104647,
-      "contentHash": "d6576f4814532782fca96c1bd26db384",
-=======
     "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/node_modules/@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/ISuperApp.sol": {
-      "lastModificationDate": 1688824056106,
+      "lastModificationDate": 1688985601043,
       "contentHash": "0b40f08d7153dd5d0b34b2f8f7308ca3",
       "sourceName": "@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/ISuperApp.sol",
       "solcConfig": {
@@ -1154,9 +718,8 @@
       ]
     },
     "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/node_modules/@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/Definitions.sol": {
-      "lastModificationDate": 1688824056106,
+      "lastModificationDate": 1688985601043,
       "contentHash": "acb97791d81cf084ae7264549d1eb0c1",
->>>>>>> b9638661ebd231acc8bbc01951566e63989c7724
       "sourceName": "@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/Definitions.sol",
       "solcConfig": {
         "version": "0.8.4",
@@ -1193,52 +756,9 @@
         "SuperfluidGovernanceConfigs"
       ]
     },
-<<<<<<< HEAD
-    "C:\\Users\\cherf\\node_modules\\@superfluid-finance\\ethereum-contracts\\contracts\\interfaces\\tokens\\ERC20WithTokenInfo.sol": {
-      "lastModificationDate": 1687174104728,
-      "contentHash": "77968d7579793b9f87e33dec4d917f44",
-=======
-    "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/node_modules/@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/ISuperAgreement.sol": {
-      "lastModificationDate": 1688824056106,
-      "contentHash": "25a7a16f7264364f214fea0aa8d00076",
-      "sourceName": "@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/ISuperAgreement.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./ISuperfluidToken.sol"
-      ],
-      "versionPragmas": [
-        ">= 0.8.4"
-      ],
-      "artifacts": [
-        "ISuperAgreement"
-      ]
-    },
     "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/node_modules/@superfluid-finance/ethereum-contracts/contracts/interfaces/tokens/ERC20WithTokenInfo.sol": {
-      "lastModificationDate": 1688824056102,
+      "lastModificationDate": 1688985601043,
       "contentHash": "8682ecaec382d776159f56809ed3a0ef",
->>>>>>> b9638661ebd231acc8bbc01951566e63989c7724
       "sourceName": "@superfluid-finance/ethereum-contracts/contracts/interfaces/tokens/ERC20WithTokenInfo.sol",
       "solcConfig": {
         "version": "0.8.4",
@@ -1273,11 +793,9 @@
       "artifacts": [
         "ERC20WithTokenInfo"
       ]
-<<<<<<< HEAD
-=======
     },
     "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/node_modules/@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/IFlowNFTBase.sol": {
-      "lastModificationDate": 1688824056106,
+      "lastModificationDate": 1688985601043,
       "contentHash": "95bd30761ce2eff3b082a1f63ad5a4a3",
       "sourceName": "@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/IFlowNFTBase.sol",
       "solcConfig": {
@@ -1315,7 +833,7 @@
       ]
     },
     "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/node_modules/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol": {
-      "lastModificationDate": 1688823551480,
+      "lastModificationDate": 1688985517649,
       "contentHash": "efbc0d15b80a74e34dbe8da0f3e879bb",
       "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol",
       "solcConfig": {
@@ -1352,7 +870,7 @@
       ]
     },
     "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol": {
-      "lastModificationDate": 1688823551392,
+      "lastModificationDate": 1688985517453,
       "contentHash": "48de4c9a3a4ae5ef66a2aa620843413f",
       "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721.sol",
       "solcConfig": {
@@ -1389,7 +907,7 @@
       ]
     },
     "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
-      "lastModificationDate": 1688823551396,
+      "lastModificationDate": 1688985517453,
       "contentHash": "03e6768535ac4da0e9756f1d8a4a018a",
       "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
       "solcConfig": {
@@ -1422,194 +940,6 @@
       "artifacts": [
         "IERC165"
       ]
-    },
-    "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/node_modules/@openzeppelin/contracts/utils/Context.sol": {
-      "lastModificationDate": 1688823551240,
-      "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
-      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "Context"
-      ]
-    },
-    "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/contracts/MyToken.sol": {
-      "lastModificationDate": 1688868230333,
-      "contentHash": "13f94650476f5b77fc3d3a2328c3d0c9",
-      "sourceName": "contracts/MyToken.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "@superfluid-finance/custom-supertokens/contracts/PureSuperToken.sol",
-        "@openzeppelin/contracts/access/Ownable.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "MyToken"
-      ]
-    },
-    "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/contracts/BadgerBear.sol": {
-      "lastModificationDate": 1688854537363,
-      "contentHash": "b73942ae98d3399ea92abacd83fca48d",
-      "sourceName": "contracts/BadgerBear.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "@superfluid-finance/custom-supertokens/contracts/PureSuperToken.sol",
-        "@openzeppelin/contracts/access/Ownable.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "BadgerBear"
-      ]
-    },
-    "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/contracts/BearBadger.sol": {
-      "lastModificationDate": 1688857319151,
-      "contentHash": "a3abb2963b33f67c698c7eadd23523ff",
-      "sourceName": "contracts/BearBadger.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "@superfluid-finance/custom-supertokens/contracts/PureSuperToken.sol",
-        "@openzeppelin/contracts/access/Ownable.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "BearBadger"
-      ]
-    },
-    "/home/lux/work/metaverse/hunters-workshop/solidity-compiler-express-server/contracts/BearBadgerToken.sol": {
-      "lastModificationDate": 1688864644534,
-      "contentHash": "91fb24dfb0d21a429c83b0becdca2969",
-      "sourceName": "contracts/BearBadgerToken.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "@superfluid-finance/custom-supertokens/contracts/PureSuperToken.sol",
-        "@openzeppelin/contracts/access/Ownable.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "BearBadgerToken"
-      ]
->>>>>>> b9638661ebd231acc8bbc01951566e63989c7724
     }
   }
 }
