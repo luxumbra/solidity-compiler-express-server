@@ -24,14 +24,14 @@
     "axios": "^1.4.0",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
-    "express": "^4.18.2",
-    "hardhat": "^2.16.1"
+    "express": "^4.18.2"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.2.3",
     "@openzeppelin/contracts": "4.9.2",
     "@openzeppelin/contracts-upgradeable": "4.9.2",
     "@superfluid-finance/custom-supertokens": "superfluid-finance/custom-supertokens",
-    "ethers": "^5.7.2"
+    "ethers": "^5.7.2",
+    "hardhat": "^2.17.0"
   }
 }
