@@ -10,7 +10,7 @@ const cors = require('cors');
 const app = express();
 
 const isDev = process.env.NODE_ENV !== 'production';
-const port = process.env.PORT ?? 3000;
+const port = process.env.PORT || 3000;
 
 app.use(cors({
   origin: isDev ? `http://localhost:8080` : ['https://superfluid-wizard.huntersworkshop.xyz', 'https://hunters-workshop.xyz'],
