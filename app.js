@@ -10,7 +10,7 @@ const app = express();
 const isDev = process.env.NODE_ENV !== 'production';
 
 app.use(cors({
-  origin: isDev ? `http://localhost:8080` : ['https://superfluid-wizard.huntersworkshop.xyz', 'https://hunters-workshop.xyz'],
+  origin: isDev ? `http://localhost:8080` : ['https://superfluid-wizard.huntersworkshop.xyz', 'https://hunters-workshop.xyz', 'https://deploy-preview-*--.hw-supertoken-contract-wizard.netlify.app'],
 }));
 app.use(express.json());
 
