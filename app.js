@@ -1,5 +1,3 @@
-// server.js
-
 require('dotenv').config();
 const express = require('express');
 const ethers = require('ethers');
@@ -10,7 +8,6 @@ const cors = require('cors');
 const app = express();
 
 const isDev = process.env.NODE_ENV !== 'production';
-const port = process.env.PORT || 3000;
 
 app.use(cors({
   origin: isDev ? `http://localhost:8080` : ['https://superfluid-wizard.huntersworkshop.xyz', 'https://hunters-workshop.xyz'],
@@ -101,6 +98,7 @@ app.post('/delete', async (req, res) => {
 
 
 // Start server
+const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log(`Server running on port ${port}`)
 });
