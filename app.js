@@ -8,10 +8,22 @@ const cors = require('cors');
 const app = express();
 
 const isDev = process.env.NODE_ENV !== 'production';
+const port = process.env.PORT || 3000;
+const animal = process.env.ANIMAL || '🐶';
 
-app.use(cors({
-  origin: isDev ? `http://localhost:8080` : ['https://superfluid-wizard.huntersworkshop.xyz', 'https://hunters-workshop.xyz', 'https://deploy-preview-*--.hw-supertoken-contract-wizard.netlify.app'],
-}));
+const corsOptions = {
+  origin: isDev ? `http://localhost:8080` : [
+    'https://superfluid-wizard.huntersworkshop.xyz',
+    'https://superfluid-wizard.luxumbra.dev',
+    'https://deploy-preview-*--hw-supertoken-contract-wizard.netlify.app'
+  ],
+  optionsSuccessStatus: 200 //  for legacy browsers
+}
+
+console.log({corsOptions, port, isDev, animal});
+
+app.use(cors(corsOptions));
+
 app.use(express.json());
 
 const contractPath = path.join(__dirname, '/contracts/Contract.sol');
@@ -98,7 +110,6 @@ app.post('/delete', async (req, res) => {
 
 
 // Start server
-const port = process.env.PORT || 3333;
 app.listen(port, () => {
   console.log(`Server running on port ${port}`)
 });
