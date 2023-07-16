@@ -62,7 +62,7 @@ app.post('/compile', async (req, res) => {
     // Write the Solidity code to a .sol file
     fs.writeFileSync(path.join(contractDir, `${name}.sol`), input);
 
-    exec('npx hardhat compile', (error, stdout, stderr) => {
+    exec('./node_modules/.bin/hardhat compile', (error, stdout, stderr) => {
       if (error) {
         console.log(`error: ${error.message}`);
         res.status(500).send({ error: error.message });
@@ -76,10 +76,11 @@ app.post('/compile', async (req, res) => {
       const artifactPath = path.join(artifactsDir, `contracts/${name}.sol/${name}.json`);
       if (fs.existsSync(artifactPath)) {
         const compiled = JSON.parse(fs.readFileSync(artifactPath, 'utf8'));
+        console.log(`Compiled ${name}!`, { compiled, stdout });
         res.send(compiled);
-      } else {
-        res.status(500).send({ error: "Compilation failed or took too long" });
+        return;
       }
+
     });
   });
 
