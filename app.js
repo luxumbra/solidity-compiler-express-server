@@ -1,3 +1,8 @@
+const isDev = process.env.NODE_ENV !== 'production';
+if (!isDev) {
+  process.chdir(__dirname);
+}
+
 require('dotenv').config();
 const express = require('express');
 const ethers = require('ethers');
@@ -7,7 +12,6 @@ const path = require('path');
 const cors = require('cors');
 const app = express();
 
-const isDev = process.env.NODE_ENV !== 'production';
 const port = process.env.PORT || 3000;
 const animal = process.env.ANIMAL || '🐶';
 
@@ -62,7 +66,7 @@ app.post('/compile', async (req, res) => {
     // Write the Solidity code to a .sol file
     fs.writeFileSync(path.join(contractDir, `${name}.sol`), input);
 
-    exec('./node_modules/.bin/hardhat compile', (error, stdout, stderr) => {
+  exec('npx hardhat compile', (error, stdout, stderr) => {
       if (error) {
         console.log(`error: ${error.message}`);
         res.status(500).send({ error: error.message });
