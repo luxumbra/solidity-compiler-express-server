@@ -33,6 +33,7 @@
     "@openzeppelin/contracts": "4.9.2",
     "@openzeppelin/contracts-upgradeable": "4.9.2",
     "@superfluid-finance/custom-supertokens": "superfluid-finance/custom-supertokens",
+    "@superfluid-finance/protocol-monorepo": "superfluid-finance/protocol-monorepo",
     "ethers": "^5.7.2",
     "hardhat": "^2.17.0"
   }
