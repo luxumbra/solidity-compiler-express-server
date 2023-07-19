@@ -90,13 +90,19 @@ app.post('/compile', async (req, res) => {
 
 // Endpoint to deploy compiled code
 app.post('/deploy', async (req, res) => {
-    const { abi, bytecode } = req.body;
-    console.log(`Deploying... `, { abi, bytecode });
+  try {
+    const { abi, bytecode, signerAddress, omit } = req.body;
+    console.log(`Deploying... `, { abi, bytecode, omit, signerAddress });
+
     // Hardhat's ContractFactory can calculate the transaction data
     let factory = new ethers.ContractFactory(abi, bytecode);
-    const transactionData = factory.getDeployTransaction().data;
+    const transactionData = factory.getDeployTransaction(omit && signerAddress).data;
 
     res.send({ transactionData });
+  } catch (e) {
+    console.log(e);
+    res.status(500).send({ error: e.message });
+  }
 });
 
 app.post('/delete', async (req, res) => {
