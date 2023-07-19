@@ -96,7 +96,7 @@ app.post('/deploy', async (req, res) => {
 
     // Hardhat's ContractFactory can calculate the transaction data
     let factory = new ethers.ContractFactory(abi, bytecode);
-    const transactionData = factory.getDeployTransaction(omit && signerAddress).data;
+    const transactionData = omit ? factory.getDeployTransaction(signerAddress).data : factory.getDeployTransaction().data;
 
     res.send({ transactionData });
   } catch (e) {
